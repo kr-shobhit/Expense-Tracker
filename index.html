@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Expense Tracker App</h1>
+    <div class="box">
+        <div class="left-box">
+
+            <div id="balance_div">
+                <h2>Total Available Balance</h2>
+                <p><b><span id="updating_balance"></span></b></p>
+            </div>
+
+            <div>
+                <div>
+
+                    <h2 id="income_head">Income</h2>
+                    <p><span id="income_balance"></span></p>
+                </div>
+                <div>
+
+                    <h2 id="expense_head">Expenditure</h2>
+                    <p><span id="expense_balance"></span></p>
+                </div>
+            </div>
+
+        </div>
+        <div class="mid-box">
+            <label for="amount_recieve">Enter Amount</label>
+            <input type="number" name="amount_recieve" id="amount_recieve" required>
+            <label for="remarks_recieve">Enter Remarks</label>
+            <input type="text" name="remarks_recieve" id="remarks_recieve">
+            <div id="buttons_div">
+                <button type="submit" id="income_btn">Income</button>
+                <button type="submit" id="expense_btn">Expense</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
